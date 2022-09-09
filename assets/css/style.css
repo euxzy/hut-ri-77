@@ -73,7 +73,8 @@ section {
   bottom: 0;
 }
 
-#proklamasi {
+#proklamasi,
+#peristiwa {
   height: 100vh;
   margin-top: 10rem;
 }
@@ -83,4 +84,20 @@ section {
   flex-direction: column;
   align-items: center;
   margin-top: 5rem;
+}
+.box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-item {
+  width: 22.5rem;
+  height: 14rem;
+  margin-bottom: 2rem;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+.box-item img {
+  width: 115%;
 }
