@@ -244,6 +244,7 @@ section {
   overflow: hidden;
 }
 .detail-box-item p {
+  cursor: default;
   width: 50rem;
   text-align: center;
 }
