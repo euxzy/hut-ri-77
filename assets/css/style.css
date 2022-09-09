@@ -71,13 +71,19 @@ section {
   background-image: url(/assets/img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 #home h1 {
+  cursor: default;
   font-size: 4rem;
   position: relative;
+  transition-duration: 300ms;
+  margin-bottom: 3rem;
   z-index: 1;
+}
+#home h1:hover {
+  color: #531516;
 }
 #home::after {
   content: '';
